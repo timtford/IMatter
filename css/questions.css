@@ -38,6 +38,9 @@
 	max-width: 30px;
 }
 
+#home {
+	max-width:40px;
+}
 #header {
 	height:50px;
 	background-color:white;
