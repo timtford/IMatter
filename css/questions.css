@@ -1,5 +1,4 @@
-.question{
-	background-color:#445878;	
+.question{	
 	color: white;
 }
 .question:nth-child(4n+0){
@@ -35,6 +34,7 @@
 
 #header {
 	height:50px;
+	background-color:white;
 }
 
 
