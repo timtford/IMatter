@@ -16,8 +16,8 @@
 	background-color:#92CDCF;	
 }
 .question .text{
-	top: 50%;
-	bottom: 50%;
+	text-align: center;
+	font-size: 25px;
 }
 
 
