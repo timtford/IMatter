@@ -1,42 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+
 <head>
-<script src="js/jquery-1.9.1.min.js" > </script>
-<script src="js/jquery.mobile-1.3.1.min.js"> </script>
-<link rel="stylesheet" href="css/jquery.mobile-1.3.1.min.css">
-<link href="css/bucketlist.css" rel="stylesheet">
+    <title>iMatter</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/font/roboto-regular.css" />
+
+    <!-- jQueryMobileCSS - original with styling -->
+    <!-- <link rel="stylesheet" href="css/jquery.mobile-1.3.1.css" /> -->
+
+    <!-- jQueryMobileCSS - original without styling -->
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.3.1.min.css" />
+
+    <!-- Custom styling including overrides to the jQueryMobile structure CSS -->
+    <link href="css/resources.css" rel="stylesheet">
+    <link href="css/questions.css" rel="stylesheet">
+
+    <!-- jQuery and jQueryMobile libraries -->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.mobile-1.3.1.min.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <script>
+
+    $( document ).ready(function() {
+        $( "#mentor_list" ).hide();    
+
+        $( "#question" ).click(function() {
+            $( "#mentor_list" ).toggle( "slow", function() {
+                // Animation complete.
+            });
+        });
+    });
+    </script>
+
 </head>
+
 <body>
+    <header id="header-mylist" data-role="header" data-position="fixed" data-theme="a">
+        <h1>iMatter</h1>
+    </header>
 
-<div data-role="page">
-        <header id="header-mylist" data-role="header" data-position="fixed" data-theme="a">
-            <a id="btn-new" data-role="button" data-icon="plus" data-iconpos="right" data-inline="true" href="#page-add" class="ui-btn-right" data-theme="c">New</a>
-            <a id="btn-logout" data-role="button" data-icon="arrow-l" data-iconpos="left" data-inline="true" href="#page-login" class="ui-btn-left" data-theme="c">Menu</a>
-            <h1>iMatter</h1>
-        </header>
-  <div data-role="content" id="contentlist">
-    <div data-role="collapsible"  id="bucketlist" class="mybucketlist" >
-      <h1>1. Click me - I'm collapsible!</h1>
-      <p>I'm the expanded content.</p>
-    </div>
-    <div data-role="collapsible">
-      <h1>2. Click me - I'm collapsible!</h1>
-      <p>I'm the expanded content.</p>
-    </div>
-    <div data-role="collapsible">
-      <h1>3. Click me - I'm collapsible!</h1>
-      <p>I'm the expanded content.</p>
-    </div>
-    <div data-role="collapsible">
-      <h1>4. Click me - I'm collapsible!</h1>
-      <p>I'm the expanded content.</p>
-    </div>
-  </div>
+        <ul>
+            <li id="question"><p class="text">How much folic acid do I need?</p>
+            </li>
+            <li id="mentor_list">Test some text
+            </li>
+            <li id="question"><p class="text">Talk to Someone</p>
+            </li>
+            <li id="question"><p class="text">Pregnancy Support Services</p>
+            </li>
+            <li id="question"><p class="text">Reproductive Health & Planning</p>
+            </li>
+        </ul>
 
-  <div data-role="footer">
-    <h1>Insert Footer Text Here</h1>
-  </div>
-</div>
-
-</body>
+        <footer data-role="footer" data-position="fixed" id="app-nav"> </footer>
+    </body>
 </html>
