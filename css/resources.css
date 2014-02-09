@@ -97,3 +97,7 @@ a {
 .menu_items_light {
 	background-color: #92CDCF;
 	}
+
+.menu_items {
+	opacity: .9;
+}
