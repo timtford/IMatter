@@ -102,6 +102,10 @@ a {
 	background-color: gray;
 }
 
-.description, .contact_address, .contact_phone {
+.contact_address, .contact_phone {
 	font-weight: bold;
+}
+
+#item_container {
+	margin-top:25px;
 }
