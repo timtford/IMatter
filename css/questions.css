@@ -1,7 +1,20 @@
-#question {
+.question{
 	background-color:#445878;	
 	color: white;
 }
+.question:nth-child(4n+0){
+	background-color:#EA6045;	
+}
+.question:nth-child(4n+1){
+	background-color:#80B25F;	
+}
+.question:nth-child(4n+2){
+	background-color:#F8CA4D;	
+}
+.question:nth-child(4n+3){
+	background-color:#92CDCF;	
+}
+
 
 #answer_img {
 	height:400px;

@@ -32,10 +32,10 @@
     <script>
 
     $( document ).ready(function() {
-        $( "#answer_img" ).hide();    
+        $( "#answer1" ).hide();    
 
-        $( "#question" ).click(function() {
-            $( "#answer_img" ).toggle( "slow");
+        $( "#q1" ).click(function() {
+            $( "#answer1" ).toggle( "slow");
         });
     });
     </script>
@@ -52,15 +52,19 @@
         </header>
 
         <ul>
-            <li id="question"><p class="text">How much folic acid do I need?</p>
+            <li class="question" id="q1"><p class="text">How much folic acid do I need?</p>
             </li>
-            <li id="answer_img"><img src="FolicAnswer_Folic_Answer.png" width="100%">
+            <li id="answer1"><img src="FolicAnswer_Folic_Answer.png" width="100%">
             </li>
-            <li id="question"><p class="text">Talk to Someone</p>
+            <li class="question"><p class="text">Can I exercise if I am pregnant?</p>
             </li>
-            <li id="question"><p class="text">Pregnancy Support Services</p>
+            <li class="question"><p class="text">What is abnormal vaginal discharge?</p>
             </li>
-            <li id="question"><p class="text">Reproductive Health & Planning</p>
+            <li class="question"><p class="text">Can I still have sex if I'm pregnant?</p>
+            </li>
+            <li class="question"><p class="text">Reproductive Health & Planning</p>
+            </li>
+            <li class="question"><p class="text">Reproductive Health & Planning</p>
             </li>
         </ul>
     </section>
