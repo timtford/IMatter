@@ -68,6 +68,13 @@ background:#F8CA4D;
 	font-family: 'Open Sans', sans-serif;
 }
 
+.menu_text {
+	color:white;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top:20px;
+	padding-left: 20px;
+}
 
 a {
 	color: white;
