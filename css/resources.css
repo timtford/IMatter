@@ -30,31 +30,41 @@ ul {
 }
 
 li {
-	height:94px;
+	height:93px;
 }
 
-#alerts, #support
+#alerts, #questions	
 {
-background:#445878;
+background:#EA6045;
 }
 
-#questions, #reproductive
-{
-background:#92CDCF;
-}
-
-#mentors
-{
-background:#F8CA4D;
-}
-
-#talk
+#reproductive
 {
 background:#80B25F;
 }
 
+#mentors
+{
+background:#445878;
+}
 
-.text {
+#talk
+{
+background:#92CDCF;
+}
+
+
+#support
+{
+background:#F8CA4D;
+}
+
+#line
+{
+	height:1px;
+	background-color: black;
+}
+.text, a {
 	font-size: 20px;
 	padding-top: 40px;
 	padding-left: 20px;
@@ -64,4 +74,29 @@ background:#80B25F;
 a {
 	color: white;
 	text-decoration: none;
+}
+
+.item {
+	text-align: center;
+}
+
+.title {
+	background-color: #445878;
+	color:white;
+	font-size: 20px;
+	height:40px;
+}
+
+.description, .contact {
+	color:gray;
+	margin:5px;
+}
+
+#gray_line {
+	height:1px;
+	background-color: gray;
+}
+
+.description, .contact_address, .contact_phone {
+	font-weight: bold;
 }
