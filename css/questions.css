@@ -48,22 +48,6 @@
 }
 
 
-.menu_items {
-	background-color: #EA6045;
-	height:80px;
-	font-weight: bold;
-	/*margin-top: 20px;
-	height:50px;
-*/}
-
-.menu_items_light {
-	background-color: #EA6045;
-	height:80px;
-	opacity:0.8;
-	font-weight: bold;
-}
-
-
 #white-line {
 	background-color: white;
 	height:1px;
