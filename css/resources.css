@@ -91,3 +91,12 @@ a {
 .menu_items {
 	opacity: .9;
 }
+
+.section_title {
+	background-color: #EA6045;
+	text-align: center;
+	color:white;
+	height:30px;
+	padding-top: 1px;
+	font-family: 'Open Sans', sans-serif;
+}
