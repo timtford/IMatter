@@ -34,12 +34,11 @@
         $( "#mentor_list" ).hide();    
 
         $( "#mentor" ).click(function() {
-  $( "#mentor_list" ).show( "slow", function() {
-    // Animation complete.
-  });
-});
-
-
+            // $( "#talk" ).hide();
+            // $( "#support").hide();
+            // $( "#reproductive" ).hide();
+            $( "#mentor_list" ).toggle( "slow");
+        });
 
     });
 
@@ -53,8 +52,8 @@
 <ul>
 <li id="mentor"><p class="text"><a href="#">Find a Mentor or a Counselor</a></p>
 </li>
-<li id="mentor_list">Test some text
-</li>
+<div id="mentor_list">Test some text
+</div>
 
 <li id="talk"><p class="text"><a href="#">Talk to Someone</a></p>
 </li>
