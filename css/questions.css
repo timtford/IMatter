@@ -1,5 +1,7 @@
 .question{	
+	height:85px;
 	color: white;
+	position:relative;
 }
 .question:nth-child(4n+0){
 	background-color:#EA6045;	
@@ -13,10 +15,14 @@
 .question:nth-child(4n+3){
 	background-color:#92CDCF;	
 }
+.text{
+	padding-top: 10px;
+}
 
 
 #answer_img {
-	height:400px;
+	max-height:400px;
+	position:relative;
 }
 
 #logo{
