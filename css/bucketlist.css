@@ -44,13 +44,13 @@ footer {
     position: relative;
     cursor: pointer;
 }
-#bucketlist.mybucketlist li {
+#bucketlist.mybucketlist div {
     padding-left: 25px;
 }
-#bucketlist li, #inspirelist li {
+#bucketlist div, #inspirelist li {
     border-bottom: 1px solid #eee;
 }
-#bucketlist.mybucketlist li:before {
+#bucketlist.mybucketlist div:before {
     /*content:"\f096";*/
     content: "";
     font-family: FontAwesome;
@@ -63,7 +63,7 @@ footer {
     width: 24px;
     height: 100%;
 }
-#bucketlist.mybucketlist li.done:before {
+#bucketlist.mybucketlist div.done:before {
     content:"\f046";
 }
 #inspirelist li:after {
