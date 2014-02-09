@@ -32,8 +32,21 @@
 	height:50px;
 */}
 
+.menu_items_light {
+	background-color: #EA6045;
+	height:85px;
+	opacity:0.8;
+}
+
 
 #white-line {
 	background-color: white;
 	height:1px;
+}
+
+.section_title {
+	background-color: #EA6045;
+	text-align: center;
+	color:white;
+	height:30px;
 }
