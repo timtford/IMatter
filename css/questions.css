@@ -3,19 +3,20 @@
 	color: white;
 	position:relative;
 }
-.question:nth-child(4n+0){
+.question:nth-child(4n+1){
 	background-color:#445878;	
 }
-.question:nth-child(4n+1){
-	background-color:#80B25F;	
-}
 .question:nth-child(4n+2){
-	background-color:#F8CA4D;	
-}
-.question:nth-child(4n+3){
 	background-color:#92CDCF;	
 }
+.question:nth-child(4n+3){
+	background-color:#F8CA4D;	
+}
+.question:nth-child(4n+0){
+	background-color:#80B25F;	
+}
 .question .text{
+	padding: none;
 	text-align: center;
 	font-size: 25px;
 }
