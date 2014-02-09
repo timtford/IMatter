@@ -1,5 +1,5 @@
 .question{	
-	height:85px;
+	height:115px;
 	color: white;
 	position:relative;
 }
@@ -16,7 +16,8 @@
 	background-color:#92CDCF;	
 }
 .question .text{
-	padding-top: 10px;
+	top: 50%;
+	bottom: 50%;
 }
 
 
