@@ -15,7 +15,7 @@
 .question:nth-child(4n+3){
 	background-color:#92CDCF;	
 }
-.text{
+.question .text{
 	padding-top: 10px;
 }
 
