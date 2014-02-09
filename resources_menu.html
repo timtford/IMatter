@@ -31,14 +31,12 @@
     <script>
 
     $( document ).ready(function() {
-        $( "#mentor_list" ).hide();    
+        $( "#mentor_list" ).hide();
 
-        $( "#mentor" ).click(function() {
-            // $( "#talk" ).hide();
-            // $( "#support").hide();
-            // $( "#reproductive" ).hide();
-            $( "#mentor_list" ).toggle( "slow");
-        });
+
+        // $( "#mentor" ).click(function() {
+        //     $( "#mentor_list" ).toggle( "slow");
+        // });
 
     });
 
@@ -50,16 +48,22 @@
 <body>
 
 <ul>
-<li id="mentor"><p class="text"><a href="#">Find a Mentor or a Counselor</a></p>
+<li id="alerts"><p class="text"><a href="alerts.html" rel="external">My Alerts</a></p>
 </li>
-<div id="mentor_list">Test some text
-</div>
 
-<li id="talk"><p class="text"><a href="#">Talk to Someone</a></p>
+<li id="questions"><p class="text"><a href="questions.html" rel="external">My Questions</a></p>
 </li>
-<li id="support"><p class="text"><a href="#">Pregnancy Support Services<a/></p>
+
+<li id="mentors"><p class="text"><a href="mentors.html" rel="external">Find a Mentor or a Counselor</a></p>
 </li>
-<li id="reproductive"><p class="text"><a href="#">Reproductive Health & Planning</a></p>
+
+<li id="talk"><p class="text"><a href="talk.html">Talk to Someone</a></p>
+</li>
+
+<li id="support"><p class="text"><a href="support.html">Pregnancy Support Services<a/></p>
+</li>
+
+<li id="reproductive"><p class="text"><a href="reproductive.html">Reproductive Health & Planning</a></p>
 </li>
 
 </ul>

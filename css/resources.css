@@ -30,29 +30,33 @@ ul {
 }
 
 li {
-	height:142px;
+	height:94px;
 }
 
-#mentor {
-	background-color:#445878;	
+#alerts, #support
+{
+background:#445878;
 }
 
-#talk {
-	background-color:#92CDCF;	
+#questions, #reproductive
+{
+background:#92CDCF;
 }
 
-#support {
-	background-color:#F8CA4D;	
+#mentors
+{
+background:#F8CA4D;
 }
 
-#reproductive {
-	background-color:#80B25F;	
+#talk
+{
+background:#80B25F;
 }
 
 
 .text {
 	font-size: 20px;
-	padding-top: 55px;
+	padding-top: 40px;
 	padding-left: 20px;
 	font-family: 'Open Sans', sans-serif;
 }
