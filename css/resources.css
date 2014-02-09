@@ -24,22 +24,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-
-ul {
-	list-style-type:none;
-}
-
 #line
 {
 	height:1px;
 	background-color: black;
-}
-.text {
-	color: white;
-	font-size: 20px;
-	padding-top: 40px;
-	padding-left: 20px;
-	font-family: 'Open Sans', sans-serif;
 }
 
 .menu_text {
