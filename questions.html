@@ -32,12 +32,10 @@
     <script>
 
     $( document ).ready(function() {
-        $( "#mentor_list" ).hide();    
+        $( "#answer_img" ).hide();    
 
         $( "#question" ).click(function() {
-            $( "#mentor_list" ).toggle( "slow", function() {
-                // Animation complete.
-            });
+            $( "#answer_img" ).toggle( "slow");
         });
     });
     </script>
@@ -52,7 +50,7 @@
         <ul>
             <li id="question"><p class="text">How much folic acid do I need?</p>
             </li>
-            <li id="mentor_list"><img src="FolicAnswer_Folic_Answer.png" width="100%">
+            <li id="answer_img"><img src="FolicAnswer_Folic_Answer.png" width="100%">
             </li>
             <li id="question"><p class="text">Talk to Someone</p>
             </li>
