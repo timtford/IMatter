@@ -32,10 +32,11 @@
 #logo {
 	margin-top: 10px;
 	text-align: center;
+}
+
+#logo a {
 	font-weight: bold;
 	font-size: 25px;
-}
-#logo a{
 	font-family: 'Open Sans', sans-serif;
 	color:#EA6045;
 }
