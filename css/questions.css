@@ -29,14 +29,16 @@
 	position:relative;
 }
 
-#logo{
-	font-family: 'Open Sans', sans-serif;
-	color:#EA6045;
-	font-size: 25px;
+#logo {
+	margin-top: 10px;
 	text-align: center;
 	font-weight: bold;
-	margin-top: 10px;
-	}
+	font-size: 25px;
+}
+#logo a{
+	font-family: 'Open Sans', sans-serif;
+	color:#EA6045;
+}
 
 #menu, #compose {
 	max-width: 30px;
