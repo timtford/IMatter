@@ -7,19 +7,20 @@
 	height:400px;
 }
 
-.header_icons{
-	max-width:30px;
-	padding:20px;
-	float:left;
-}
-
 #logo{
-	float:left;
 	font-family: 'Open Sans', sans-serif;
 	color:#EA6045;
 	font-size: 25px;
-	width:140px;
 	text-align: center;
 	font-weight: bold;
-	padding:20px;
+	margin-top: 10px;
+	}
+
+
+#menu, #compose {
+	max-width: 30px;
+}
+
+#header {
+	height:50px;
 }
