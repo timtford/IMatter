@@ -3,6 +3,7 @@
 	background-color:#445878;
 }
 
-#logo{
+#logo a{
 	color:white;
+	text-decoration: none;
 }
