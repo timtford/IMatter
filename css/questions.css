@@ -29,14 +29,17 @@
 	position:relative;
 }
 
-#logo{
+#logo {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#logo a {
+	font-weight: bold;
+	font-size: 25px;
 	font-family: 'Open Sans', sans-serif;
 	color:#EA6045;
-	font-size: 25px;
-	text-align: center;
-	font-weight: bold;
-	margin-top: 10px;
-	}
+}
 
 #menu, #compose {
 	max-width: 30px;
