@@ -29,32 +29,6 @@ ul {
 	list-style-type:none;
 }
 
-/*#alerts, #questions	
-{
-background:#EA6045;
-}
-
-#reproductive
-{
-background:#80B25F;
-}
-
-#mentors
-{
-background:#445878;
-}
-
-#talk
-{
-background:#92CDCF;
-}
-
-
-#support
-{
-background:#F8CA4D;
-}*/
-
 #line
 {
 	height:1px;
@@ -69,11 +43,9 @@ background:#F8CA4D;
 }
 
 .menu_text {
-	color:white;
+	color: white;
 	font-size: 20px;
-	font-weight: bold;
-	padding-top:20px;
-	padding-left: 20px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a {
