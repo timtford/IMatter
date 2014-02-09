@@ -1,0 +1,38 @@
+[
+    {
+      "id" : 1,
+      "question": "How much folic acid do I need?",
+      "author": "Stella",
+      "responses": 
+        [{
+          "author": "Alice",
+          "response": "A lot",
+          "upvotes": 12,
+          "downvotes" : 3
+        },{
+          "author": "Bob",
+          "response": "Some",
+          "upvotes": 5,
+          "downvotes" : 2
+        }
+        ]
+    },
+    {
+      "id" : 2,
+      "question": "Will I be in pain",
+      "author": "Stella",
+      "responses": 
+        [{
+          "author": "Alice",
+          "response": "A lot",
+          "upvotes": 12,
+          "downvotes" : 3
+        },{
+          "author": "Bob",
+          "response": "Some",
+          "upvotes": 5,
+          "downvotes" : 2
+        }
+        ]
+    }
+]
