@@ -23,3 +23,17 @@
 #header {
 	height:50px;
 }
+
+
+.menu_items {
+	background-color: #EA6045;
+	height:85px;
+	/*margin-top: 20px;
+	height:50px;
+*/}
+
+
+#white-line {
+	background-color: white;
+	height:1px;
+}

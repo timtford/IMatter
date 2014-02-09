@@ -65,6 +65,7 @@ background:#F8CA4D;
 	background-color: black;
 }
 .text, a {
+	color: white;
 	font-size: 20px;
 	padding-top: 40px;
 	padding-left: 20px;

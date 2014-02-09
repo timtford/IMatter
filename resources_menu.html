@@ -21,6 +21,7 @@
 
     <!-- Custom styling including overrides to the jQueryMobile structure CSS -->
     <link href="css/resources.css" rel="stylesheet">
+    <link href="css/questions.css" rel="stylesheet">
 
     <!-- jQuery and jQueryMobile libraries -->
     <script src="js/jquery-1.9.1.min.js"></script>
@@ -47,27 +48,46 @@
 
 <body>
 
-<ul>
-<li id="alerts"><p class="text"><a href="alerts.html" rel="external">My Alerts</a></p>
-</li>
-<div id="line"></div>
+    <section id="page-main" data-role="page">
 
-<li id="questions"><p class="text"><a href="questions.html" rel="external">My Questions</a></p>
-</li>
-<div id="line"></div>
-<li id="mentors"><p class="text"><a href="mentors.html" rel="external">Find a Mentor or a Counselor</a></p>
-</li>
-<div id="line"></div>
-<li id="talk"><p class="text"><a href="talk.html">Talk to Someone</a></p>
-</li>
-<div id="line"></div>
-<li id="support"><p class="text"><a href="support.html">Pregnancy Support Services<a/></p>
-</li>
-<div id="line"></div>
-<li id="reproductive"><p class="text"><a href="reproductive.html">Reproductive Health & Planning</a></p>
-</li>
-<div id="line"></div>
-</ul>
+        <header id="header" data-role="header" data-position="fixed">
+            <a href="questions.html" rel="external"><img id="menu" src="Icons/Icons_menu.png"></a>
+            <div id="logo">iMatter</div>
+            <a href="#compose"><img id="compose" src="Icons/Icons_Compose.png"></a>
+        </header>
+
+        <ul>
+            <li class="menu_items">
+                <p class="text">My Alerts</p>
+            </li>
+            <div id="white-line"></div>
+            
+            <li class="menu_items">
+                <p class="text">My Questions</p>
+            </li>
+            <div id="white-line"></div>
+
+            <li class="menu_items">
+                <p class="text">Find a Mentor or Counselor</p>
+            </li>
+            <div id="white-line"></div>
+         
+            <li class="menu_items">
+                <p class="text">Helplines</p>            
+            </li>
+            <div id="white-line"></div>
+
+            <li class="menu_items">
+                <p class="text">Reproductive Health & Planning</p>            
+            </li>
+            <div id="white-line"></div>
+
+            <li class="menu_items">
+                <p class="text">Public Assistance Support</p>            
+            </li>
+            <div id="white-line"></div>
+        </ul>
+    </section>
 
 </body>
 
